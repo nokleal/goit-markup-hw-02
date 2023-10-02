@@ -35,9 +35,17 @@ header {
     letter-spacing: 0.32px;
 }
 
+.nav-link:hover, .nav-link:focus {
+    color: var(--iris);
+}
+
 .contact-info {
     font-weight: 400;
     color: var(--slate);
+}
+
+.contact-info:hover, .contact-info:focus {
+    color: var(--iris);
 }
 
 section {
@@ -67,6 +75,12 @@ h2 {
     background-color: var(--iris);
     color: var(--white);
     border-radius: 4px;
+}
+
+.order-service:hover, .order-service:focus{
+    color: var(--iris);
+    background-color: var(--white);
+
 }
 
 h3 {
